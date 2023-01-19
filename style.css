@@ -5,6 +5,7 @@ html {
 }
 
 body {
+    color: rgb(139,39,221);
     background-color: rgb((168, 224, 213));
     background-image: linear-gradient(to bottom, rgb(242, 224, 231), rgb(168, 224, 213));
     background-attachment: fixed;
@@ -18,13 +19,12 @@ body {
 }
 
 .topNav {
-    background-color: aquamarine;
     overflow: hidden;
 }
 
 .topNav a {
     float: right;
-    color: black;
+    color: rgb(139, 39, 221);
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
@@ -33,7 +33,7 @@ body {
 }
 
 .topNav a:hover {
-    background-color: rgb(59, 133, 108);
+    color: cornflowerblue;
     opacity: 150%;
 }
 
@@ -43,6 +43,9 @@ body {
 
 #apresentacao {
     display: flex;
+    align-items: center;
+    justify-content: center;
+    column-gap: 50px;
     margin-left: auto;
     margin-right: auto;
     text-align: center;
@@ -51,10 +54,16 @@ body {
     margin-bottom: 25%;
     font-weight: bold;
 }
+
 #apresentacao:hover {
     background-color: blueviolet;
     border-radius: 10px;
     color: bisque;
+}
+
+#avatar {
+    width: 300px;
+    height: 300px;
 }
 
 img.scrolldown {
@@ -86,9 +95,10 @@ img.scrolldown {
 }
 
 .links-redes {
-    margin-left: auto;
-    margin-right: auto;
-    padding-top: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 550px;
     padding-bottom: 100px;
 }
 
