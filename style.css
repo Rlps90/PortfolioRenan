@@ -41,30 +41,31 @@ body {
     padding-top: 10%;
 }
 
-p.apresentacao {
+#apresentacao {
     display: flex;
     margin-left: auto;
     margin-right: auto;
     text-align: center;
     width: 20em;
     padding: 50px;
+    margin-bottom: 25%;
     font-weight: bold;
 }
-.apresentacao:hover {
+#apresentacao:hover {
     background-color: blueviolet;
     border-radius: 10px;
+    color: bisque;
 }
 
-img.arrowDown {
-    width: 120px;
-    height: auto;
+img.scrolldown {
+    position: fixed;
     margin-left: auto;
     margin-right: auto;
-    padding-top: 8%;
+    bottom: 25px;
 }
 
 .toolkits {
-    margin-top: 50%;
+    margin-top: 10%;
 }
 
 .skills {
@@ -75,12 +76,20 @@ img.arrowDown {
     padding-top: 10%;
 }
 
-.skills tr th i{
+.skills tr {
     font-size: 40px;
 }
 
+.skills tr th i {
+    margin-right: 100px;
+    margin-left: 100px;
+}
+
 .links-redes {
-    padding-bottom: 10%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 500px;
+    padding-bottom: 100px;
 }
 
 footer {
